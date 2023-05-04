@@ -1,4 +1,7 @@
-def format_name(first_name, last_name):
+from typing import Any
+
+
+def format_name(first_name: Any, last_name: Any):
     """Return a full name: "John JAMESEON"."""
 
     a = first_name  # Add here a proper method to have the first name capitalized.
@@ -18,7 +21,7 @@ def process_character(s):
     ...
 
 
-def add_words_to_collection(string_to_process, collection):
+def add_words_to_collection(string_to_process: Any, collection: Any):
     for word in string_to_process:  # fix here:
         # add word to collection here (it is a list)
         pass
